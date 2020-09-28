@@ -1,0 +1,40 @@
+body {
+  background-color:#000;
+  margin:0;
+  padding:0;
+  color:white;
+  font-family: Arial;
+}
+
+form {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:50%;
+}
+
+form div p {
+  font-size:36px;
+  font-weight:bold;
+}
+
+form input {
+  width:100%;
+  padding:15px;
+  border:none;
+  background:darkgray;
+  font-size:18px;
+  outline:none;
+}
+
+form button {
+  width:25%;
+  padding:15px;
+  font-size:18px;
+  margin-top:15px;
+}
+
+form button.sending {
+  font-style: italic;
+}
