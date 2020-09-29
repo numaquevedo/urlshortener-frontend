@@ -1,40 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 body {
-  background-color:#000;
+  background-color:#194a94;
   margin:0;
   padding:0;
   color:white;
-  font-family: Arial;
+  font-family: 'Secular One', sans-serif;
 }
 
-form {
+#form-container {
+  width:500px;
+  height:300px;
   position:absolute;
   top:50%;
   left:50%;
-  transform:translate(-50%, -50%);
-  width:50%;
+  transform: translate(-50%,-50%);
 }
 
-form div p {
+#form-container h1 {
   font-size:36px;
-  font-weight:bold;
+  text-align:center;
 }
 
-form input {
-  width:100%;
+#form-container form input{
+  width:358px;
+  border:1px solid #2a6ac9;
   padding:15px;
+  outline:0;
+  border-radius:10px;
+  font-size:16px;
+  text-align:center;
+}
+
+#form-container form button{
+  width:100px;
+  padding:15px 0;
+  font-size:16px;
+  border-radius:10px;
   border:none;
-  background:darkgray;
-  font-size:18px;
+  background-color:#f78119;
+  color:white;
+  margin-left:10px;
   outline:none;
 }
 
-form button {
-  width:25%;
-  padding:15px;
-  font-size:18px;
-  margin-top:15px;
+#form-container form button:hover {
+  cursor:pointer;
 }
 
-form button.sending {
-  font-style: italic;
+#form-container form button:active {
+  background-color: #fc9c47;
+}
+
+#form-container #result {
+  margin-top:15px;
+  background-color:#1a65d6;
+  width:470px;
+  padding:15px;
+  border-radius:5px;
+  text-align: center;
+}
+
+#form-container #result p {
+  padding:0;
+  margin:0;
+  text-align:center;
+  width:100%;
+  font-size:24px;
+}
+
+#form-container #result a {
+  color:white;
 }
